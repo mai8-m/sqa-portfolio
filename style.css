@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #d9a3a3;
+    --color-bg-soft: #ffdcdc;
+    --color-cream: #fff9d6;
+    --color-accent: #8fae6b;
+    --color-text: #3a3a3a;
+    --font-heading: 'Georgia', serif;
+    --font-body: 'Helvetica Neue', Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background-color: #fffdf8;
+    line-height: 1.6;
+}
+h1, h2 {
+    font-family: var(--font-heading);
+}
+
+header {
+    background-color: var(--color-primary);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+section {
+    padding: 2.5rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: var(--color-bg-soft);
+}
+
+#case-studies {
+    background-color: var(--color-cream);
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+h2 {
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.4rem;
+}
+
+#contact {
+    background-color: var(--color-bg-soft);
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.8rem;
+    background-color: var(--color-accent);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
